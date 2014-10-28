@@ -3,12 +3,18 @@ html {
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #fefefe;
     color: #333333;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 a {
     color: #3399CE;
+}
+
+.panelContainer {
+    margin-top: 50px;
 }
 
 #content {
@@ -16,7 +22,8 @@ a {
 }
 
 #navbar {
-    background-color: #F0F0F0;
+    background-image: none;
+    background-color: #2F393F;
     border-top: solid 1px #505050;
     border-bottom: solid 1px #505050;
 }
@@ -46,12 +53,6 @@ a {
     background-color: #FFFFFF;
 }
 
-#navbar {
-    background-color: #F0F0F0;
-    border-top: solid 1px #505050;
-    border-bottom: solid 1px #505050;
-}
-
 #jsddm li a,#jsddm li a:hover {
     color: #505050;
 }
@@ -61,21 +62,21 @@ a {
 }
 
 html {
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/bg.jpg) repeat-x fixed #3c9899;
+    background: none;
 }
 
 body {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .fixedWidthContent {
     background: white;
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 #home #content {
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/boat.jpg) no-repeat bottom left white;
+    background: none;
 }
 
 #bookmarklet-resource-iframe {
@@ -83,38 +84,45 @@ body {
 }
 
 #header {
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/header.png) repeat top right;
-    height: 118px;
+    background: none;
+    background-color:#2F393F;
+    height: 105px;
     position: relative;
 }
 
 #logo {
     position: relative;
     top: 30px;
-    left: 20px;
+    left: 10px;
+    display: none;
+}
+div#branding {
+    width: 313px;
+    height: 72px;
+    /* hack */ background: url(http://localhost/tmp/talis_styles/reading_lists_title_greysm.png) no-repeat 20px 30px;
 }
 
 #top_menu {
     position: absolute;
     right: 28px;
-    top: 9px;
+    top: 20px;
     z-index: 99;
 }
 
 #top_menu a {
-    color: #3399ce;
+    color: #a0a0a0;
     font-size: 13px;
     margin-right: 10px;
     font-weight: bold;
 }
 
 #top_menu a:hover {
-    color: #227dad;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 
 #top_menu_background {
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/top-menu-bg.png) no-repeat top right;
+    background: none;
     height: 41px;
     width: 339px;
     display: block;
@@ -125,7 +133,9 @@ body {
 }
 
 #navbar {
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu.png) top left repeat-x;
+    background-image: none;
+    /*background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu.png) top left repeat-x;*/
+    background-color: #2F393F;
     border: none;
     height: 53px;
 }
@@ -136,7 +146,8 @@ body {
 }
 
 #jsddm li a {
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #A0A0A0;
     text-shadow: 0px 1px 0px #000000;
     font-size: 15px;
     font-weight: bold;
@@ -180,14 +191,19 @@ body {
 }
 
 #tenantSearchTitle {
-    color: #3abfc0;
+    color: #3399ce;
     font-size: 25px;
     margin-bottom: 9px !important;
     margin-top: 2%;
 }
 
 #frmHomeSearch {
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/search-box.png) top center no-repeat;
+    background: none;
+    /* background-color: #008da8; */
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 600px;
+    max-width: 95%;
     height: 80px;
     padding-top: 26px;
     font-family: helvetica neue, arial, sans serif;
@@ -207,7 +223,7 @@ body {
 }
 
 #btnSearch:hover {
-    background: url("http://cust-assets.talisaspire.com/falmouth/live/contrib/search-hover.png") no-repeat scroll left top transparent !important;
+    background-image: none  !important;
 }
 
 #btnSearch:active {
@@ -218,9 +234,9 @@ body {
     width: 386px;
     height: 39px;
     border-radius: 6px;
-    border: 1px solid #288182;
+    border: 1px solid #444;
     font-size: 16px;
-    color: #397f5d;
+    color: #444;
     font-weight: bold;
     position: relative;
     left: -5px;
@@ -242,7 +258,7 @@ body {
 }
 
 h1 {
-    color: #3abfc0;
+    color: #3399ce;
     margin-bottom: 20px;
     font-size: 2.2em;
     line-height: 27px;
@@ -278,10 +294,6 @@ button:hover,.editItemButton:hover,#formButtons input:hover,#btnOK:hover,.remove
     border: 2px solid #cccccd;
 }
 
-#itemDetailsProperties {
-    margin-top: 20px;
-}
-
 #pageActionsList {
     font-size: 14px;
 }
@@ -306,15 +318,27 @@ body #bookmarkletIframeWidth #bookmarklet-resource-iframe {
 
 #sidebar {
     border-left: 1px solid white;
+    background-image: none;
+    background-color: #ebebeb;
     position: relative;
-    top: -30px;
+    top: 0;
+    border-left: 1px solid #ddd;
+}
+#sidebar, #sidebar th, #sidebar span.fieldlabel, #sidebar h5 {
+    color: #666;
+    font-weight: normal;
+}
+#availabilityDetails th {
+
 }
 
 #footer {
     color: white;
     position: relative;
-    height: 70px;
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/footer.png) repeat top right;
+    height: 100px;
+    /* hack */ background: url(http://learningspace.falmouth.ac.uk/theme/image.php/learningspace/theme/1404808774/logo) no-repeat top right;
+    background-position: right 30px top 20px;
+    background-color: #ddd;
     border-top: 4px solid #c2c2c2;
 }
 
@@ -392,4 +416,27 @@ body #bookmarkletIframeWidth #bookmarklet-resource-iframe {
 .ie7 #q {
     padding-top: 12px;
     height: 27px;
+}
+
+/* Cosmetic */
+
+#pageDescription blockquote { margin-top: 20px; }
+#itemDetailsProperties {
+    margin-top: 20px;
+}
+#resourceDetails { margin-top: 20px; }
+#resourceDetails dt { line-height: 1.8; }
+#resourceProperties dl { margin-left: 20px; }
+#itemFullTextPreviewPanel {
+    background-color: #ebebeb;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+#itemFullTextPreviewPanel h3 {
+    background-color: #eee;
+    color: #666;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
 }
