@@ -404,6 +404,7 @@ body #bookmarkletIframeWidth #bookmarklet-resource-iframe {
     padding-top: 12px;
     height: 27px;
 }
+}
 
 .ie6 #jsddm li a {
     display: inline;
@@ -417,6 +418,7 @@ body #bookmarkletIframeWidth #bookmarklet-resource-iframe {
 /* Cosmetic */
 
 #pageDescription blockquote { margin-top: 20px; }
+div.listOwner { display:none; }
 #itemDetailsProperties {
     margin-top: 20px;
 }
