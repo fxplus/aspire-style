@@ -1,1 +1,395 @@
-html{background-color:#FFFFFF}body{background-color:#FFFFFF;color:#333333}a{color:#3399CE}#content{background-color:#FFFFFF}#navbar{background-color:#F0F0F0;border-top:solid 1px #505050;border-bottom:solid 1px #505050}#jsddm li a,#jsddm li a:hover{color:#505050}#jsddm li ul li a,#jsddm li ul li a:hover{background:#F0F0F0}html{background-color:#FFFFFF}body{background-color:#FFFFFF;color:#333333}a{color:#3399CE}#content{background-color:#FFFFFF}#navbar{background-color:#F0F0F0;border-top:solid 1px #505050;border-bottom:solid 1px #505050}#jsddm li a,#jsddm li a:hover{color:#505050}#jsddm li ul li a,#jsddm li ul li a:hover{background:#F0F0F0}html{background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/bg.jpg) repeat-x fixed #3c9899}body{margin-left:5%;margin-right:5%}.fixedWidthContent{background:white;margin-top:30px}#home #content{background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/boat.jpg) no-repeat bottom left white}#bookmarklet-resource-iframe{margin:0px !important}#header{background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/header.png) repeat top right;height:118px;position:relative}#logo{position:relative;top:30px;left:20px}#top_menu{position:absolute;right:28px;top:9px;z-index:99}#top_menu a{color:#3399ce;font-size:13px;margin-right:10px;font-weight:bold}#top_menu a:hover{color:#227dad;text-decoration:underline}#top_menu_background{background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/top-menu-bg.png) no-repeat top right;height:41px;width:339px;display:block;position:absolute;top:0px;right:20px;z-index:10}#navbar{background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu.png) top left repeat-x;border:none;height:53px}#jsddm{margin-left:10px;padding-top:0px}#jsddm li a{color:#ffffff;text-shadow:0px 1px 0px #000000;font-size:15px;font-weight:bold;font-family:helvetica neue, arial, sans serif;padding:15px 11px;height:23px;text-decoration:none !important;border:none !important}#jsddm li a:hover{color:white;text-shadow:0px 0px 6px #3399ce;background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu-hover.png) top left repeat-x}#jsddm li ul{border-top:none}#jsddm li ul li a{height:auto;padding:7px 16px;background:#3c3c3c;color:#ffffff;text-shadow:0px 1px 0px #000000}#jsddm li ul li a:hover{color:black;text-shadow:none;color:white;text-shadow:0px 0px 6px #3399ce;background:black}#home #jsddm li #lnkHome{color:white;text-shadow:0px 0px 6px #3399ce;background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu-hover.png) top left repeat-x}#tenantSearchTitle{color:#3abfc0;font-size:25px;margin-bottom:9px !important;margin-top:2%}#frmHomeSearch{background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/search-box.png) top center no-repeat;height:80px;padding-top:26px;font-family:helvetica neue, arial, sans serif}#btnSearch{height:43px;width:106px;background:url("http://cust-assets.talisaspire.com/falmouth/live/contrib/search.png") no-repeat scroll left top transparent !important;text-indent:-9999px;font-size:0.001em;border:none !important;position:relative;cursor:pointer;position:relative;top:-3px}#btnSearch:hover{background:url("http://cust-assets.talisaspire.com/falmouth/live/contrib/search-hover.png") no-repeat scroll left top transparent !important}#btnSearch:active{background:url("http://cust-assets.talisaspire.com/falmouth/live/contrib/search-active.png") no-repeat scroll left top transparent !important}#q{width:386px;height:39px;border-radius:6px;border:1px solid #288182;font-size:16px;color:#397f5d;font-weight:bold;position:relative;left:-5px;padding-left:41px;padding-right:20px;background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/search_icon.png) top left no-repeat #ffffff}#tenantHomeLinks{margin-bottom:5%;color:#eeeeee}#lnkHierarchyView,#lnkRecentChanges{color:#3399ce;font-size:14px;font-weight:bold;margin:0px 2px}h1{color:#3abfc0;margin-bottom:20px;font-size:2.2em;line-height:27px}button,.editItemButton,.removeItemButton,.editSectionButton,#formButtons input,#btnOK,.removeSectionButton,.bookmarkletHelpLink,#discardButton,#lnkCreateList,#lnkAddBookmark,#bttnCancel,#lnkDeleteBookmarks,#lnkAddPage,#btnCreate,#btnCreateandAdd,#btnSave,#btnCancel,input[type="submit"]{border:1px solid #111111 !important;color:#ffffff !important;cursor:pointer;font-weight:bold;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:#383838 !important}button:hover,.editItemButton:hover,#formButtons input:hover,#btnOK:hover,.removeItemButton:hover,.editSectionButton:hover,.removeSectionButton:hover,.bookmarkletHelpLink:hover,#discardButton:hover,#lnkCreateList:hover,#lnkAddBookmark:hover,#lnkDeleteBookmarks:hover,#lnkAddPage:hover,#btnSave:hover,#bttnCancel:hover,#btnCreate:hover,#btnCreateandAdd:hover,#btnCancel:hover,input[type="submit"]:hover{background:#111111}#tableOfContents,.section,.panelHeading,#myBookmarks,#tblBookmarks{border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}#pageActionsList{margin-bottom:16px}.section{background:#ebebeb;border:2px solid #cccccd}#itemDetailsProperties{margin-top:20px}#pageActionsList{font-size:14px}#mainResourceHeader,.floatLeft{color:#0B486B}.panelHeading{background:#368687;border:none;padding:6px 7px}.panelHeading h2{color:#ffffff !important}body #bookmarkletIframeWidth #bookmarklet-resource-iframe{width:43% !important}#sidebar{border-left:1px solid white;position:relative;top:-30px}#footer{color:white;position:relative;height:70px;background:url(http://cust-assets.talisaspire.com/falmouth/live/contrib/footer.png) repeat top right;border-top:4px solid #c2c2c2}#footer .contact{position:relative;top:25px;left:25px;width:300px}#footer a{color:#3399ce;font-size:13px;margin-right:10px;font-weight:bold}#footer a:hover{color:#227dad;text-decoration:underline}#footer .links{position:absolute;top:24px;left:20px}#footer .powered{color:#777777;width:100%;text-align:center}#footer .powered p{display:inline;position:relative}#footer p{color:#777777;width:100%;text-align:center}#saveButton,#btnOK,#btnAdd,#btnSave,.actionButton{background:none repeat scroll 0 0 #383838 !important;border:1px solid #111111;color:#ffffff !important;padding:1px}.panelHeading a{color:white;text-decoration:underline}#bookmarkNote{width:87% !important}.ie6{margin:none}.ie6 #q{padding-top:12px;height:27px}.ie6 #jsddm li a{display:inline}.ie7 #q{padding-top:12px;height:27px}
+html {
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+a {
+    color: #3399CE;
+}
+
+#content {
+    background-color: #FFFFFF;
+}
+
+#navbar {
+    background-color: #F0F0F0;
+    border-top: solid 1px #505050;
+    border-bottom: solid 1px #505050;
+}
+
+#jsddm li a,#jsddm li a:hover {
+    color: #505050;
+}
+
+#jsddm li ul li a,#jsddm li ul li a:hover {
+    background: #F0F0F0;
+}
+
+html {
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+a {
+    color: #3399CE;
+}
+
+#content {
+    background-color: #FFFFFF;
+}
+
+#navbar {
+    background-color: #F0F0F0;
+    border-top: solid 1px #505050;
+    border-bottom: solid 1px #505050;
+}
+
+#jsddm li a,#jsddm li a:hover {
+    color: #505050;
+}
+
+#jsddm li ul li a,#jsddm li ul li a:hover {
+    background: #F0F0F0;
+}
+
+html {
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/bg.jpg) repeat-x fixed #3c9899;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fixedWidthContent {
+    background: white;
+    margin-top: 30px;
+}
+
+#home #content {
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/boat.jpg) no-repeat bottom left white;
+}
+
+#bookmarklet-resource-iframe {
+    margin: 0px !important;
+}
+
+#header {
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/header.png) repeat top right;
+    height: 118px;
+    position: relative;
+}
+
+#logo {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+#top_menu {
+    position: absolute;
+    right: 28px;
+    top: 9px;
+    z-index: 99;
+}
+
+#top_menu a {
+    color: #3399ce;
+    font-size: 13px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#top_menu a:hover {
+    color: #227dad;
+    text-decoration: underline;
+}
+
+#top_menu_background {
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/top-menu-bg.png) no-repeat top right;
+    height: 41px;
+    width: 339px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    z-index: 10;
+}
+
+#navbar {
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu.png) top left repeat-x;
+    border: none;
+    height: 53px;
+}
+
+#jsddm {
+    margin-left: 10px;
+    padding-top: 0px;
+}
+
+#jsddm li a {
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #000000;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: helvetica neue, arial, sans serif;
+    padding: 15px 11px;
+    height: 23px;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+#jsddm li a:hover {
+    color: white;
+    text-shadow: 0px 0px 6px #3399ce;
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu-hover.png) top left repeat-x;
+}
+
+#jsddm li ul {
+    border-top: none;
+}
+
+#jsddm li ul li a {
+    height: auto;
+    padding: 7px 16px;
+    background: #3c3c3c;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #000000;
+}
+
+#jsddm li ul li a:hover {
+    color: black;
+    text-shadow: none;
+    color: white;
+    text-shadow: 0px 0px 6px #3399ce;
+    background: black;
+}
+
+#home #jsddm li #lnkHome {
+    color: white;
+    text-shadow: 0px 0px 6px #3399ce;
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu-hover.png) top left repeat-x;
+}
+
+#tenantSearchTitle {
+    color: #3abfc0;
+    font-size: 25px;
+    margin-bottom: 9px !important;
+    margin-top: 2%;
+}
+
+#frmHomeSearch {
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/search-box.png) top center no-repeat;
+    height: 80px;
+    padding-top: 26px;
+    font-family: helvetica neue, arial, sans serif;
+}
+
+#btnSearch {
+    height: 43px;
+    width: 106px;
+    background: url("http://cust-assets.talisaspire.com/falmouth/live/contrib/search.png") no-repeat scroll left top transparent !important;
+    text-indent: -9999px;
+    font-size: 0.001em;
+    border: none !important;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    top: -3px;
+}
+
+#btnSearch:hover {
+    background: url("http://cust-assets.talisaspire.com/falmouth/live/contrib/search-hover.png") no-repeat scroll left top transparent !important;
+}
+
+#btnSearch:active {
+    background: url("http://cust-assets.talisaspire.com/falmouth/live/contrib/search-active.png") no-repeat scroll left top transparent !important;
+}
+
+#q {
+    width: 386px;
+    height: 39px;
+    border-radius: 6px;
+    border: 1px solid #288182;
+    font-size: 16px;
+    color: #397f5d;
+    font-weight: bold;
+    position: relative;
+    left: -5px;
+    padding-left: 41px;
+    padding-right: 20px;
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/search_icon.png) top left no-repeat #ffffff;
+}
+
+#tenantHomeLinks {
+    margin-bottom: 5%;
+    color: #eeeeee;
+}
+
+#lnkHierarchyView,#lnkRecentChanges {
+    color: #3399ce;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 2px;
+}
+
+h1 {
+    color: #3abfc0;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    line-height: 27px;
+}
+
+button,.editItemButton,.removeItemButton,.editSectionButton,#formButtons input,#btnOK,.removeSectionButton,.bookmarkletHelpLink,#discardButton,#lnkCreateList,#lnkAddBookmark,#bttnCancel,#lnkDeleteBookmarks,#lnkAddPage,#btnCreate,#btnCreateandAdd,#btnSave,#btnCancel,input[type="submit"] {
+    border: 1px solid #111111 !important;
+    color: #ffffff !important;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: #383838 !important;
+}
+
+button:hover,.editItemButton:hover,#formButtons input:hover,#btnOK:hover,.removeItemButton:hover,.editSectionButton:hover,.removeSectionButton:hover,.bookmarkletHelpLink:hover,#discardButton:hover,#lnkCreateList:hover,#lnkAddBookmark:hover,#lnkDeleteBookmarks:hover,#lnkAddPage:hover,#btnSave:hover,#bttnCancel:hover,#btnCreate:hover,#btnCreateandAdd:hover,#btnCancel:hover,input[type="submit"]:hover {
+    background: #111111;
+}
+
+#tableOfContents,.section,.panelHeading,#myBookmarks,#tblBookmarks {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#pageActionsList {
+    margin-bottom: 16px;
+}
+
+.section {
+    background: #ebebeb;
+    border: 2px solid #cccccd;
+}
+
+#itemDetailsProperties {
+    margin-top: 20px;
+}
+
+#pageActionsList {
+    font-size: 14px;
+}
+
+#mainResourceHeader,.floatLeft {
+    color: #0B486B;
+}
+
+.panelHeading {
+    background: #368687;
+    border: none;
+    padding: 6px 7px;
+}
+
+.panelHeading h2 {
+    color: #ffffff !important;
+}
+
+body #bookmarkletIframeWidth #bookmarklet-resource-iframe {
+    width: 43% !important;
+}
+
+#sidebar {
+    border-left: 1px solid white;
+    position: relative;
+    top: -30px;
+}
+
+#footer {
+    color: white;
+    position: relative;
+    height: 70px;
+    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/footer.png) repeat top right;
+    border-top: 4px solid #c2c2c2;
+}
+
+#footer .contact {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: 300px;
+}
+
+#footer a {
+    color: #3399ce;
+    font-size: 13px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#footer a:hover {
+    color: #227dad;
+    text-decoration: underline;
+}
+
+#footer .links {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+
+#footer .powered {
+    color: #777777;
+    width: 100%;
+    text-align: center;
+}
+
+#footer .powered p {
+    display: inline;
+    position: relative;
+}
+
+#footer p {
+    color: #777777;
+    width: 100%;
+    text-align: center;
+}
+
+#saveButton,#btnOK,#btnAdd,#btnSave,.actionButton {
+    background: none repeat scroll 0 0 #383838 !important;
+    border: 1px solid #111111;
+    color: #ffffff !important;
+    padding: 1px;
+}
+
+.panelHeading a {
+    color: white;
+    text-decoration: underline;
+}
+
+#bookmarkNote {
+    width: 87% !important;
+}
+
+.ie6 {
+    margin: none;
+}
+
+.ie6 #q {
+    padding-top: 12px;
+    height: 27px;
+}
+
+.ie6 #jsddm li a {
+    display: inline;
+}
+
+.ie7 #q {
+    padding-top: 12px;
+    height: 27px;
+}
