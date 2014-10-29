@@ -444,6 +444,8 @@ div.listOwner { display:none; }
 #itemFullTextPreviewPanel {
     background-color: #ebebeb;
     border: 1px solid #ddd;
+    border-top-color: #ccc;
+    border-left-color: #ccc;
     padding: 10px;
 }
 #itemFullTextPreviewPanel h3 {
