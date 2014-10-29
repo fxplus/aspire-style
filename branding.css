@@ -1,5 +1,44 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('http://library.fxplus.ac.uk/sites/all/themes/custom/fx_themes/plus/fonts/roboto/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'stag-medium';
+  src: url('http://fxplus.org/temp/fonts/stag/Stag-Medium.otf');
+}
+@font-face {
+  font-family: 'stag-book';
+  src: url('http://fxplus.org/temp/fonts/stag/Stag-Book.otf');
+}
+@font-face {
+  font-family: 'stag-light';
+  src: url('http://fxplus.org/temp/fonts/stag/Stag-Light.otf');
+}
+@font-face {
+  font-family: 'stag-thin';
+  src: url('http://fxplus.org/temp/fonts/stag/Stag-Thin.otf');
+}
+@font-face {
+  font-family: 'stag-semibold';
+  src: url('http://fxplus.org/temp/fonts/stag/Stag-Semibold.otf');
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "stag-medium";
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+h1 {
+    color: #3399ce;
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    line-height: 1.5em;
+}
+
 html {
     background-color: #FFFFFF;
+    background: none;
 }
 
 body {
@@ -32,15 +71,6 @@ body {
     background: #F0F0F0;
 }
 
-html {
-    background-color: #FFFFFF;
-}
-
-body {
-    background-color: #FFFFFF;
-    color: #333333;
-}
-
 a {
     color: #3399CE;
 }
@@ -55,15 +85,6 @@ a {
 
 #jsddm li ul li a,#jsddm li ul li a:hover {
     background: #F0F0F0;
-}
-
-html {
-    background: none;
-}
-
-body {
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .fixedWidthContent {
@@ -81,7 +102,7 @@ body {
 
 #header {
     background: none;
-    background-color:#2F393F;
+    background-color:#004855;
     height: 105px;
     position: relative;
 }
@@ -95,7 +116,7 @@ body {
 div#branding {
     width: 313px;
     height: 72px;
-    /* hack */ background: url(http://fxplus.org/temp/images/talis/reading_lists_title_greysm.png) no-repeat 20px 30px;
+    /* hack */ background: url(http://fxplus.org/temp/images/talis/reading_lists_title_stagwhite.png) no-repeat 20px 30px;
 }
 
 #top_menu {
@@ -106,10 +127,11 @@ div#branding {
 }
 
 #top_menu a {
-    color: #a0a0a0;
+    /*color: #a0a0a0;*/
+    color: #f0f0f0;
     font-size: 13px;
     margin-right: 10px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 #top_menu a:hover {
@@ -131,9 +153,9 @@ div#branding {
 #navbar {
     background-image: none;
     /*background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu.png) top left repeat-x;*/
-    background-color: #2F393F;
+    background-color: #008da8;
     border: none;
-    height: 53px;
+    height: 40px;
 }
 
 #jsddm {
@@ -143,12 +165,12 @@ div#branding {
 
 #jsddm li a {
     /*color: #ffffff;*/
-    color: #A0A0A0;
+    color: #eee;
     text-shadow: 0px 1px 0px #000000;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: normal;
     font-family: helvetica neue, arial, sans serif;
-    padding: 15px 11px;
+    padding: 10px 11px;
     height: 23px;
     text-decoration: none !important;
     border: none !important;
@@ -157,7 +179,8 @@ div#branding {
 #jsddm li a:hover {
     color: white;
     text-shadow: 0px 0px 6px #3399ce;
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu-hover.png) top left repeat-x;
+    background-image: none;
+    background-color: #004855;
 }
 
 #jsddm li ul {
@@ -183,7 +206,7 @@ div#branding {
 #home #jsddm li #lnkHome {
     color: white;
     text-shadow: 0px 0px 6px #3399ce;
-    background: url(http://cust-assets.talisaspire.com/falmouth/live/contrib/menu-hover.png) top left repeat-x;
+    background-image: none;
 }
 
 #tenantSearchTitle {
@@ -251,13 +274,6 @@ div#branding {
     font-size: 14px;
     font-weight: bold;
     margin: 0px 2px;
-}
-
-h1 {
-    color: #3399ce;
-    margin-bottom: 20px;
-    font-size: 2.2em;
-    line-height: 1.5em;
 }
 
 button,.editItemButton,.removeItemButton,.editSectionButton,#formButtons input,#btnOK,.removeSectionButton,.bookmarkletHelpLink,#discardButton,#lnkCreateList,#lnkAddBookmark,#bttnCancel,#lnkDeleteBookmarks,#lnkAddPage,#btnCreate,#btnCreateandAdd,#btnSave,#btnCancel,input[type="submit"] {
